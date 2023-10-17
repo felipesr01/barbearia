@@ -1,0 +1,96 @@
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-cinza {
+    background-color: #252323;
+}
+.bg-branco {
+    background-color: white;
+}
+
+header {
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-height: 100px;
+}
+
+.logo, .logo-dm {
+    max-width: 150px;
+    max-height: 100px;
+}
+.logo-dm {
+    filter: invert();
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-height: 50px;
+    border-radius: 40px;
+    padding: 5px 15px;
+    border: 2px solid #B39A7Fed;
+    cursor: pointer;
+    background: none;
+}
+button img {
+    max-width: 30px;
+}
+.txt-botao-preto {
+    color: black;
+    font-weight: bold;
+}
+.txt-botao-branco {
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url(../../public/assets/banner-barbearia.jpg);
+    background-size: cover;
+    height: 350px;
+    background-position: center center;
+}
+
+.info {
+    padding: 50px 20px;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+p {
+    font-size: 0.9em;
+}
+
+.txt-branco {
+    color: white;
+}
+.txt-preto {
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+.assinatura {
+    font-size: 2em;
+    font-family: 'Great Vibes', cursive;
+    color: #B39A7F;
+}
+
+@media screen and (min-width:1024px){
+    .info {
+        height: 381px;
+    }
+    .limita-info {
+        margin: auto;
+        max-width: 900px;
+    }
+}
